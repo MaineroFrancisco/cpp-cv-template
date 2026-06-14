@@ -1,0 +1,16 @@
+{
+    "dependencies": [
+        "opencv4",
+        "opengl",
+        "glfw3",
+        "glm",
+        "openmesh",
+        {
+            "name": "imgui",
+            "features": [
+                "glfw-binding",
+                "opengl3-binding"
+            ]
+        }
+    ]
+}
