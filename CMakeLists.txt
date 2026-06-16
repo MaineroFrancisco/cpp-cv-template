@@ -1,8 +1,12 @@
 cmake_minimum_required(VERSION 3.31)
-project(CV_Template CXX)
+project(CV_Template)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Enable automatic scanning and building of standard library modules
+set(CMAKE_CXX_MODULE_STD ON)
+set(CMAKE_CXX_SCAN_FOR_MODULES ON)
 
 # Find the packages declared in vcpkg.json
 
