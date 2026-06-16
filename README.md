@@ -29,9 +29,30 @@ TODO: add docker container. resume this part into container run command
 
 TODO: Add instruction on how to run vcpkg and cmake to build project
 
+# Technologies
+TODO add details, create table
+
+- git
+- github: actions and milestones
+- CMake
+- VSCode
+- vcpkg
+
 # Build
 
 TODO: Create scripts for project setup: package installation, cmake compilation, etc 
+
+Set up ```VCPKG_ROOT``` environment variable to your vcpkg folder
+
+To create vcpkg.json file, run the following command:
+
+```vcpkg new --application```
+
+To add new libraries on future project run the following command:
+
+```vcpkg add port library_to_add```
+
+
 
 # Libraries
 #TODO add versions and missing libraries
