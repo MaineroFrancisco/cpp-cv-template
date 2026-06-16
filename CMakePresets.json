@@ -1,0 +1,14 @@
+{
+    "version": 10,
+    "configurePresets": [
+        {
+            "name": "default",
+            "binaryDir": "build",
+            "generator": "Ninja",
+            "toolchainFile": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ]
+}
